@@ -47,6 +47,12 @@
       "@machinecontrollers": [
         "controllers/machines/index.ts"
       ],
+      "@mailcontrollers": [
+        "controllers/mail/index.ts"
+      ],
+      "@qrcodecontrollers": [
+        "controllers/qrcode/index.ts"
+      ],
     }
   },
   "types": [

@@ -12,7 +12,10 @@ import path from "path"
 import multer from 'multer'
 import { createMachineController, deleteMachineController, getMachineController, 
         listMachineController, updateMachineController, getMachineImageController, 
-        getMachineTagController, getAllMachineController } from '@machinecontrollers'
+        getMachineTagController, getAllMachineController, getMachineByIdController,
+        getMachineGuestImgController, getMachineGuestTagController } from '@machinecontrollers'
+import { checkExpirationDate } from '@mailcontrollers'
+import { qrcode } from '@qrcodecontrollers'
 
 type PermissionOptions = 'createPermissions' | 'readPermissions' | 'updatePermissions' | 'deletePermissions'
 const maxSize = 20 * 1024 * 1024
@@ -41,6 +44,12 @@ router.get('/', [
     validationFields
 ] as RequestHandler[], listMachineController);
 
+router.get('/checkExpiration', [
+    jwtValidation,
+    permission(readPermissions as PermissionOptions, machines),
+    validationFields
+] as RequestHandler[], checkExpirationDate);
+
 router.get('/allmachines', [
     jwtValidation,
     permission(readPermissions as PermissionOptions, machines),
@@ -53,17 +62,41 @@ router.get('/id/:id_maquina', [
     validationFields
 ] as RequestHandler[], getMachineController);
 
+//no-auth
+router.get('/guest/id/:id_maquina', [
+    check('id_maquina', 'The id is required'),
+    validationFields
+] as RequestHandler[], getMachineByIdController);
+
 router.get('/image/:machineId', [
     jwtValidation,
     check('machineId', 'The id is required'),
     validationFields
 ] as RequestHandler[], getMachineImageController)
 
+//no-auth
+router.get('/guest/image/:machineId', [
+    check('machineId', 'The id is required'),
+    validationFields
+] as RequestHandler[], getMachineGuestImgController)
+
 router.get('/tag/image/:tagId', [
     jwtValidation,
     check('tagId', 'The id is required'),
     validationFields
 ] as RequestHandler[], getMachineTagController)
+
+//no-auth
+router.get('/guest/tag/image/:tagId', [
+    check('tagId', 'The id is required'),
+    validationFields
+] as RequestHandler[], getMachineGuestTagController)
+
+router.get('/guest/qr/id/:id_maquina', [
+    jwtValidation,
+    check('id_maquina', 'The id is required'),
+    validationFields
+] as RequestHandler[], qrcode);
 
 ////////////////// UPDATE ///////////////////////////////////////
 router.put('/updatebyadmin/:id', [
