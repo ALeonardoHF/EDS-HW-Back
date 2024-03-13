@@ -14,8 +14,6 @@ interface RequestBody extends Request {
 
 const createMachineController = async (req: RequestBody, res: Response) => {
     logger.verbose('[Machines, createMachineController]', `User:${req?.user?.email} Add new Machine`);
-    //@ts-expect-error
-    console.log('certificado :>> ', req?.files?.certificado);
     let attachment1;
     let attachment2;
     let attachment3;

@@ -16,9 +16,9 @@ interface RequestBody extends Request {
 const updateMachineController = async(req: RequestBody, res: Response) => {
     logger.verbose('[Machines, updateMachineController]', `User:${req?.user?.email} action: Update Machine`);
     const _id = req?.params?.id;
-    let attachment1;
-    let attachment2;
-    let attachment3;
+    let attFotoEquipo;
+    let attFotoEtiqueta;
+    let attCertificado;
 
     //@ts-expect-error
     const foto_equipo = req?.files?.foto_equipo;
@@ -47,7 +47,7 @@ const updateMachineController = async(req: RequestBody, res: Response) => {
                 file: foto_equipo[0]?.path,
                 createdBy: req?.user?._id
             }
-            attachment1 = await new Attachment(attachmentData);
+            attFotoEquipo = await new Attachment(attachmentData);
             
         }
         if(foto_etiqueta_calibracion) {
@@ -58,7 +58,7 @@ const updateMachineController = async(req: RequestBody, res: Response) => {
                 file: foto_etiqueta_calibracion[0]?.path,
                 createdBy: req?.user?._id
             }
-            attachment2 = await new Attachment(attachmentData2);
+            attFotoEtiqueta = await new Attachment(attachmentData2);
 
         }
         if(certificado) {
@@ -69,38 +69,34 @@ const updateMachineController = async(req: RequestBody, res: Response) => {
                 file: certificado[0]?.path,
                 createdBy: req?.user?._id
             }
-            attachment3 = await new Attachment(attachmentData3);
+            attCertificado = await new Attachment(attachmentData3);
 
         }
 
-        await attachment1?.save();
-        await attachment2?.save();
-        await attachment3?.save();
+        await attFotoEquipo?.save();
+        await attFotoEtiqueta?.save();
+        await attCertificado?.save();
         
-        
-
-        if(machineExist && machineExist.foto_equipo) {
-            if (machineExist.foto_equipo && foto_equipo) {
-                const existingAttachment = await Attachment.findById(machineExist.foto_equipo)
-                if (fs.existsSync(`${existingAttachment?.file}`)) fs.unlinkSync(`${existingAttachment?.file}`)
-                await Attachment.findByIdAndDelete(existingAttachment?._id)
-            }
-            if (machineExist.foto_etiqueta_calibracion && foto_etiqueta_calibracion) {
-                const existingAttachment = await Attachment.findById(machineExist.foto_etiqueta_calibracion)
-                if (fs.existsSync(`${existingAttachment?.file}`)) fs.unlinkSync(`${existingAttachment?.file}`)
-                await Attachment.findByIdAndDelete(existingAttachment?._id)
-            }
-            if (machineExist.certificado && certificado) {
-                const existingAttachment = await Attachment.findById(machineExist.certificado)
-                if (fs.existsSync(`${existingAttachment?.file}`)) fs.unlinkSync(`${existingAttachment?.file}`)
-                await Attachment.findByIdAndDelete(existingAttachment?._id)
-            }
+        if (machineExist?.foto_equipo && foto_equipo) {
+            const existingAttachment = await Attachment.findById(machineExist?.foto_equipo)
+            if (fs.existsSync(`${existingAttachment?.file}`)) fs.unlinkSync(`${existingAttachment?.file}`)
+            await Attachment.findByIdAndDelete(existingAttachment?._id)
         }
-
+        if (machineExist?.foto_etiqueta_calibracion && foto_etiqueta_calibracion) {
+            const existingAttachment = await Attachment.findById(machineExist?.foto_etiqueta_calibracion)
+            if (fs.existsSync(`${existingAttachment?.file}`)) fs.unlinkSync(`${existingAttachment?.file}`)
+            await Attachment.findByIdAndDelete(existingAttachment?._id)
+        }
+        if (machineExist?.certificado && certificado) {
+            const existingAttachment = await Attachment.findById(machineExist?.certificado)
+            if (fs.existsSync(`${existingAttachment?.file}`)) fs.unlinkSync(`${existingAttachment?.file}`)
+            await Attachment.findByIdAndDelete(existingAttachment?._id)
+        }
+        
         const calibration = await Calibration.findByIdAndUpdate(_id, {id_maquina, nomMaquina, serial, manufacturador, 
             proveedor, type, loc1, loc2, loc3, last_calibration_date: dateLastCalibDate,
             calibration_interval_define, expira: dateExpira, rango_trabajo, comments,
-            certificado: attachment3?._id, foto_equipo: attachment1?._id, foto_etiqueta_calibracion: attachment2?._id, status});
+            certificado: attCertificado?._id, foto_equipo: attFotoEquipo?._id, foto_etiqueta_calibracion: attFotoEtiqueta?._id, status});
         
         const event = {
             date: dayjs().toDate(),
