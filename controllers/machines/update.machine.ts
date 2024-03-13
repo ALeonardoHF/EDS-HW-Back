@@ -18,16 +18,19 @@ const updateMachineController = async(req: RequestBody, res: Response) => {
     const _id = req?.params?.id;
     let attachment1;
     let attachment2;
+    let attachment3;
 
     //@ts-expect-error
     const foto_equipo = req?.files?.foto_equipo;
     //@ts-expect-error
     const foto_etiqueta_calibracion = req?.files?.foto_etiqueta_calibracion;
+
+    //@ts-expect-error
+    const certificado = req?.files?.certificado;
     
     const {id_maquina, nomMaquina, serial, manufacturador, 
                 proveedor, type, loc1, loc2, loc3, last_calibration_date,
-                calibration_interval_define, expira, rango_trabajo, comments,
-                liga_certificado, status } = req.body;
+                calibration_interval_define, expira, rango_trabajo, comments , status } = req.body;
     
     try {
         const dateLastCalibDate = dayjs(last_calibration_date).toDate()
@@ -58,9 +61,21 @@ const updateMachineController = async(req: RequestBody, res: Response) => {
             attachment2 = await new Attachment(attachmentData2);
 
         }
+        if(certificado) {
+            const attachmentData3 = {
+                name: `${certificado[0]?.originalname}`,
+                category: 'userAttachment',
+                fileType: certificado[0]?.filename?.split('.')[1],
+                file: certificado[0]?.path,
+                createdBy: req?.user?._id
+            }
+            attachment3 = await new Attachment(attachmentData3);
+
+        }
 
         await attachment1?.save();
         await attachment2?.save();
+        await attachment3?.save();
         
         
 
@@ -75,12 +90,17 @@ const updateMachineController = async(req: RequestBody, res: Response) => {
                 if (fs.existsSync(`${existingAttachment?.file}`)) fs.unlinkSync(`${existingAttachment?.file}`)
                 await Attachment.findByIdAndDelete(existingAttachment?._id)
             }
+            if (machineExist.certificado && certificado) {
+                const existingAttachment = await Attachment.findById(machineExist.certificado)
+                if (fs.existsSync(`${existingAttachment?.file}`)) fs.unlinkSync(`${existingAttachment?.file}`)
+                await Attachment.findByIdAndDelete(existingAttachment?._id)
+            }
         }
 
         const calibration = await Calibration.findByIdAndUpdate(_id, {id_maquina, nomMaquina, serial, manufacturador, 
             proveedor, type, loc1, loc2, loc3, last_calibration_date: dateLastCalibDate,
             calibration_interval_define, expira: dateExpira, rango_trabajo, comments,
-            liga_certificado, foto_equipo: attachment1?._id, foto_etiqueta_calibracion: attachment2?._id, status});
+            certificado: attachment3?._id, foto_equipo: attachment1?._id, foto_etiqueta_calibracion: attachment2?._id, status});
         
         const event = {
             date: dayjs().toDate(),

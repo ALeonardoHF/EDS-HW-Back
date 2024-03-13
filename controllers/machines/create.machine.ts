@@ -14,20 +14,23 @@ interface RequestBody extends Request {
 
 const createMachineController = async (req: RequestBody, res: Response) => {
     logger.verbose('[Machines, createMachineController]', `User:${req?.user?.email} Add new Machine`);
+    //@ts-expect-error
+    console.log('certificado :>> ', req?.files?.certificado);
     let attachment1;
     let attachment2;
+    let attachment3;
     //@ts-expect-error
     const foto_equipo = req?.files?.foto_equipo;
 
     //@ts-expect-error
     const foto_etiqueta_calibracion = req?.files?.foto_etiqueta_calibracion;
 
-    // const {foto_equipo, foto_etiqueta_calibracion} = req.files as Express.Multer.File[]
+    //@ts-expect-error
+    const certificado = req?.files?.certificado;
     
     const { id_maquina, nomMaquina, serial, manufacturador, 
                 proveedor, type, loc1, loc2, loc3, last_calibration_date,
-                calibration_interval_define, expira, rango_trabajo, comments,
-                liga_certificado } = req.body;
+                calibration_interval_define, expira, rango_trabajo, comments } = req.body;
     try {
         const dateLastCalibDate = dayjs(last_calibration_date).toDate()
         const dateExpira = dayjs(expira).toDate()
@@ -54,7 +57,16 @@ const createMachineController = async (req: RequestBody, res: Response) => {
             attachment2 = await new Attachment(attachmentData2);
         }
         
-
+        if(certificado) {
+            const attachmentData3 = {
+                name: `${certificado[0]?.originalname}`,
+                category: 'userAttachment',
+                fileType: certificado[0]?.filename?.split('.')[1],
+                file: certificado[0]?.path,
+                createdBy: req?.user?._id
+            }
+            attachment3 = await new Attachment(attachmentData3);
+        }
         
         
 
@@ -62,12 +74,13 @@ const createMachineController = async (req: RequestBody, res: Response) => {
             id_maquina, nomMaquina, serial, manufacturador, 
                 proveedor, type, loc1, loc2, loc3, last_calibration_date: dateLastCalibDate,
                 calibration_interval_define, expira: dateExpira, rango_trabajo, comments,
-                liga_certificado,foto_equipo: attachment1?._id ,foto_etiqueta_calibracion: attachment2?._id
+                certificado: attachment3?._id ,foto_equipo: attachment1?._id ,foto_etiqueta_calibracion: attachment2?._id
                 
         });
 
         await attachment1?.save();
         await attachment2?.save();
+        await attachment3?.save();
         await calibration.save();
         
 

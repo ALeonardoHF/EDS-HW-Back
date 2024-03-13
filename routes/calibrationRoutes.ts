@@ -13,7 +13,7 @@ import multer from 'multer'
 import { createMachineController, deleteMachineController, getMachineController, 
         listMachineController, updateMachineController, getMachineImageController, 
         getMachineTagController, getAllMachineController, getMachineByIdController,
-        getMachineGuestImgController, getMachineGuestTagController } from '@machinecontrollers'
+        getMachineGuestImgController, getMachineGuestTagController, getMachineCertificateController, getMachineGuestCertificateController } from '@machinecontrollers'
 import { checkExpirationDate } from '@mailcontrollers'
 import { qrcode } from '@qrcodecontrollers'
 
@@ -33,7 +33,7 @@ const router = Router();
 router.post('/', [
     jwtValidation,
     permission(createPermissions as PermissionOptions, machines),
-    uploadFile.fields([{name: 'foto_equipo'},{name: 'foto_etiqueta_calibracion'}]),
+    uploadFile.fields([{name: 'foto_equipo'},{name: 'foto_etiqueta_calibracion'}, {name: 'certificado'}]),
     validationFields
 ] as RequestHandler[], createMachineController);
 
@@ -92,6 +92,18 @@ router.get('/guest/tag/image/:tagId', [
     validationFields
 ] as RequestHandler[], getMachineGuestTagController)
 
+router.get('/certificate/:cerId', [
+    jwtValidation,
+    check('cerId', 'The id is required'),
+    validationFields
+] as RequestHandler[], getMachineCertificateController)
+
+//no-auth
+router.get('/guest/certificate/:cerId', [
+    check('cerId', 'The id is required'),
+    validationFields
+] as RequestHandler[], getMachineGuestCertificateController)
+
 router.get('/guest/qr/id/:id_maquina', [
     jwtValidation,
     check('id_maquina', 'The id is required'),
@@ -102,7 +114,7 @@ router.get('/guest/qr/id/:id_maquina', [
 router.put('/updatebyadmin/:id', [
     jwtValidation,
     permission(updatePermissions as PermissionOptions, machines),
-    uploadFile.fields([{name: 'foto_equipo'},{name: 'foto_etiqueta_calibracion'}]),
+    uploadFile.fields([{name: 'foto_equipo'},{name: 'foto_etiqueta_calibracion'},{name: 'certificado'}]),
     validationFields
 ] as RequestHandler[], updateMachineController);
 

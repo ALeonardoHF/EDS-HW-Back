@@ -16,7 +16,9 @@ const getMachineByIdController = async (req: RequestBody, res: Response) => {
     logger.verbose('[Machines, getMachineByIdController]', `Get Machine by Id No Auth`);
     const { id_maquina } = req.params;
     try {
-        const machine = await Calibration.findById(id_maquina).populate('foto_equipo', '-__v').populate({ path: 'foto_equipo', populate: { path: 'createdBy', model: 'User' } }).populate('foto_etiqueta_calibracion', '-__v').populate({ path: 'foto_etiqueta_calibracion', populate: { path: 'createdBy', model: 'User' } });
+        const machine = await Calibration.findById(id_maquina).populate('foto_equipo', '-__v').populate({ path: 'foto_equipo', populate: { path: 'createdBy', model: 'User' } })
+                                                              .populate('foto_etiqueta_calibracion', '-__v').populate({ path: 'foto_etiqueta_calibracion', populate: { path: 'createdBy', model: 'User' } })
+                                                              .populate('certificado', '-__v').populate({ path: 'certificado', populate: { path: 'createdBy', model: 'User' } });
         logger.info('[Machines, getMachineByIdController], Success');
         res.json(machine);
     } catch (error) {

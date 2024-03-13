@@ -69,9 +69,9 @@ const CalibrationSchema = new Schema({
         type: Schema.Types.ObjectId,
         ref: 'Attachment'
     },
-    liga_certificado: {
-        type: String,
-        required: [true, 'La liga del certificado es obligatoria'],
+    certificado: {
+        type: Schema.Types.ObjectId,
+        ref: 'Attachment'
     },
     status: {
         type: Boolean,

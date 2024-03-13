@@ -4970,3 +4970,407 @@
 2024-02-21T06:53:39.882Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
 2024-02-21T06:53:39.895Z [32minfo[39m     Listen at : 8010
 2024-02-21T06:53:50.992Z [34mverbose[39m  [Machines, createQR] User:leonardo_heredia123@hotmail.com createQR
+2024-03-02T22:13:11.015Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-02T22:13:11.018Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-02T22:13:11.030Z [32minfo[39m     Listen at : 8010
+2024-03-02T22:15:02.979Z [34mverbose[39m  [Auth, login] method to login into application
+2024-03-07T07:05:52.095Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-07T07:05:52.098Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-07T07:05:52.113Z [32minfo[39m     Listen at : 8010
+2024-03-07T07:11:30.780Z [34mverbose[39m  [Auth, login] method to login into application
+2024-03-07T08:08:47.749Z [34mverbose[39m  [Auth, login] method to login into application
+2024-03-07T09:01:42.775Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-07T09:01:42.778Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-07T09:01:42.791Z [32minfo[39m     Listen at : 8010
+2024-03-09T08:11:07.925Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-09T08:11:07.928Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-09T08:11:07.947Z [32minfo[39m     Listen at : 8010
+2024-03-10T20:49:21.759Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-10T20:49:21.763Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-10T20:49:21.776Z [32minfo[39m     Listen at : 8010
+2024-03-10T21:02:40.045Z [34mverbose[39m  [Auth, login] method to login into application
+2024-03-10T21:13:27.734Z [34mverbose[39m  [Auth, login] method to login into application
+2024-03-10T21:28:06.445Z [34mverbose[39m  [Auth, login] method to login into application
+2024-03-10T21:28:25.426Z [34mverbose[39m  [Auth, login] method to login into application
+2024-03-10T21:29:07.244Z [34mverbose[39m  [Auth, login] method to login into application
+2024-03-10T21:41:52.338Z [34mverbose[39m  [Auth, login] method to login into application
+2024-03-11T06:10:18.011Z [34mverbose[39m  [Auth, login] method to login into application
+2024-03-13T00:08:21.967Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T00:08:21.970Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T00:08:21.982Z [32minfo[39m     Listen at : 8010
+2024-03-13T00:16:25.689Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T00:16:25.692Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T00:16:25.705Z [32minfo[39m     Listen at : 8010
+2024-03-13T00:21:24.976Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T00:21:24.979Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T00:21:24.993Z [32minfo[39m     Listen at : 8010
+2024-03-13T00:21:37.957Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T00:21:37.960Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T00:21:37.973Z [32minfo[39m     Listen at : 8010
+2024-03-13T00:22:17.487Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T00:22:17.491Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T00:22:17.503Z [32minfo[39m     Listen at : 8010
+2024-03-13T00:22:29.254Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T00:22:29.257Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T00:22:29.269Z [32minfo[39m     Listen at : 8010
+2024-03-13T00:25:55.866Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T00:25:55.869Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T00:25:55.881Z [32minfo[39m     Listen at : 8010
+2024-03-13T00:27:42.876Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T00:27:42.879Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T00:27:42.892Z [32minfo[39m     Listen at : 8010
+2024-03-13T00:28:05.692Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T00:28:05.695Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T00:28:05.707Z [32minfo[39m     Listen at : 8010
+2024-03-13T00:28:53.596Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T00:28:53.599Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T00:28:53.611Z [32minfo[39m     Listen at : 8010
+2024-03-13T00:29:04.932Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T00:29:04.936Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T00:29:04.949Z [32minfo[39m     Listen at : 8010
+2024-03-13T00:32:24.921Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T00:32:24.924Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T00:32:24.937Z [32minfo[39m     Listen at : 8010
+2024-03-13T00:33:07.028Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T00:33:07.031Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T00:33:07.045Z [32minfo[39m     Listen at : 8010
+2024-03-13T00:34:01.407Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T00:34:01.410Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T00:34:01.423Z [32minfo[39m     Listen at : 8010
+2024-03-13T00:37:14.216Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T00:37:14.218Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T00:37:14.231Z [32minfo[39m     Listen at : 8010
+2024-03-13T00:38:28.939Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T00:38:28.942Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T00:38:28.955Z [32minfo[39m     Listen at : 8010
+2024-03-13T00:38:48.033Z [34mverbose[39m  [Auth, login] method to login into application
+2024-03-13T00:40:00.708Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T00:40:40.869Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T00:42:55.903Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T00:42:55.906Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T00:42:55.920Z [32minfo[39m     Listen at : 8010
+2024-03-13T00:43:11.254Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T00:45:57.929Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T00:45:57.932Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T00:45:57.944Z [32minfo[39m     Listen at : 8010
+2024-03-13T00:46:00.687Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T00:46:50.474Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T00:46:50.477Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T00:46:50.491Z [32minfo[39m     Listen at : 8010
+2024-03-13T00:46:52.282Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T00:46:58.168Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T00:46:58.175Z [34mverbose[39m  [Machines, createMachineController] User:leonardo_heredia123@hotmail.com Add new Machine
+2024-03-13T00:46:58.224Z [32minfo[39m     [Machine, createMachineController] Succesfully 
+2024-03-13T00:48:04.579Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T00:49:45.938Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T00:49:45.940Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T00:49:45.954Z [32minfo[39m     Listen at : 8010
+2024-03-13T00:51:01.102Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T00:51:01.105Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T00:51:01.117Z [32minfo[39m     Listen at : 8010
+2024-03-13T00:51:07.560Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T00:51:07.570Z [34mverbose[39m  [Machines, createMachineController] User:leonardo_heredia123@hotmail.com Add new Machine
+2024-03-13T00:51:07.584Z [31merror[39m    [Machines, createMachineController]  User:leonardo_heredia123@hotmail.com  {"index":0,"code":11000,"keyPattern":{"id_maquina":1},"keyValue":{"id_maquina":"1234"}}
+2024-03-13T00:51:23.102Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T00:52:08.134Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T00:52:57.329Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T00:52:57.332Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T00:52:57.345Z [32minfo[39m     Listen at : 8010
+2024-03-13T00:53:00.267Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T00:53:20.988Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T00:53:20.991Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T00:53:21.003Z [32minfo[39m     Listen at : 8010
+2024-03-13T00:53:22.382Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T00:53:52.806Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T00:54:35.466Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T00:54:35.469Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T00:54:35.482Z [32minfo[39m     Listen at : 8010
+2024-03-13T00:54:37.173Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T00:56:10.276Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T00:56:10.280Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T00:56:10.292Z [32minfo[39m     Listen at : 8010
+2024-03-13T00:56:13.473Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T00:56:13.487Z [34mverbose[39m  [Machines, createMachineController] User:leonardo_heredia123@hotmail.com Add new Machine
+2024-03-13T00:56:13.504Z [32minfo[39m     [Machine, createMachineController] Succesfully 
+2024-03-13T00:57:12.390Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T00:57:12.395Z [34mverbose[39m  [Machines, updateMachineController] User:leonardo_heredia123@hotmail.com action: Update Machine
+2024-03-13T00:57:12.405Z [32minfo[39m     [Machines, updateMachineController] Succesfully 
+2024-03-13T00:58:03.145Z [34mverbose[39m  [Machines, getMachineController] User:leonardo_heredia123@hotmail.com Get Machine by Id
+2024-03-13T00:58:03.151Z [32minfo[39m     [Machines, getMachineController] User:leonardo_heredia123@hotmail.com Success
+2024-03-13T00:59:41.163Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T00:59:41.165Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T00:59:41.178Z [32minfo[39m     Listen at : 8010
+2024-03-13T00:59:46.691Z [34mverbose[39m  [Machines, getMachineController] User:leonardo_heredia123@hotmail.com Get Machine by Id
+2024-03-13T00:59:46.698Z [32minfo[39m     [Machines, getMachineController] User:leonardo_heredia123@hotmail.com Success
+2024-03-13T00:59:49.667Z [34mverbose[39m  [Machines, getMachineController] User:leonardo_heredia123@hotmail.com Get Machine by Id
+2024-03-13T00:59:49.673Z [32minfo[39m     [Machines, getMachineController] User:leonardo_heredia123@hotmail.com Success
+2024-03-13T01:01:02.755Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T01:01:02.758Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T01:01:02.770Z [32minfo[39m     Listen at : 8010
+2024-03-13T01:01:06.583Z [34mverbose[39m  [Machines, getMachineController] User:leonardo_heredia123@hotmail.com Get Machine by Id
+2024-03-13T01:01:06.589Z [32minfo[39m     [Machines, getMachineController] User:leonardo_heredia123@hotmail.com Success
+2024-03-13T01:02:41.032Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T01:02:41.035Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T01:02:41.049Z [32minfo[39m     Listen at : 8010
+2024-03-13T01:02:50.383Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:02:50.395Z [34mverbose[39m  [Machines, createMachineController] User:leonardo_heredia123@hotmail.com Add new Machine
+2024-03-13T01:02:50.410Z [32minfo[39m     [Machine, createMachineController] Succesfully 
+2024-03-13T01:02:53.421Z [34mverbose[39m  [Machines, getMachineController] User:leonardo_heredia123@hotmail.com Get Machine by Id
+2024-03-13T01:02:53.422Z [32minfo[39m     [Machines, getMachineController] User:leonardo_heredia123@hotmail.com Success
+2024-03-13T01:03:07.640Z [34mverbose[39m  [Machines, getMachineController] User:leonardo_heredia123@hotmail.com Get Machine by Id
+2024-03-13T01:03:07.646Z [32minfo[39m     [Machines, getMachineController] User:leonardo_heredia123@hotmail.com Success
+2024-03-13T01:08:13.577Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T01:08:13.580Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T01:08:13.593Z [32minfo[39m     Listen at : 8010
+2024-03-13T01:08:39.654Z [34mverbose[39m  [Machines, getMachineController] User:leonardo_heredia123@hotmail.com Get Machine by Id
+2024-03-13T01:08:39.660Z [32minfo[39m     [Machines, getMachineController] User:leonardo_heredia123@hotmail.com Success
+2024-03-13T01:10:31.461Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T01:10:31.464Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T01:10:31.477Z [32minfo[39m     Listen at : 8010
+2024-03-13T01:10:33.281Z [34mverbose[39m  [Machines, getMachineController] User:leonardo_heredia123@hotmail.com Get Machine by Id
+2024-03-13T01:10:33.291Z [32minfo[39m     [Machines, getMachineController] User:leonardo_heredia123@hotmail.com Success
+2024-03-13T01:10:44.660Z [34mverbose[39m  [Machines, getMachineByIdController] Get Machine by Id No Auth
+2024-03-13T01:10:44.662Z [32minfo[39m     [Machines, getMachineByIdController], Success 
+2024-03-13T01:10:53.903Z [34mverbose[39m  [Machines, getMachineByIdController] Get Machine by Id No Auth
+2024-03-13T01:10:53.913Z [32minfo[39m     [Machines, getMachineByIdController], Success 
+2024-03-13T01:11:02.675Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:11:02.675Z [34mverbose[39m  [Machine, listMachineController] User:leonardo_heredia123@hotmail.com action:Get Machine List
+2024-03-13T01:11:02.690Z [32minfo[39m     [Machine, listMachineController] Succesfully 
+2024-03-13T01:11:12.514Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:11:12.514Z [34mverbose[39m  [Machine, listAllMachineController] User:leonardo_heredia123@hotmail.com action:Get All Machine List
+2024-03-13T01:11:12.516Z [32minfo[39m     [Machine, listAllMachineController] Succesfully 
+2024-03-13T01:12:01.177Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T01:12:01.180Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T01:12:01.193Z [32minfo[39m     Listen at : 8010
+2024-03-13T01:13:05.889Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T01:13:05.892Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T01:13:05.905Z [32minfo[39m     Listen at : 8010
+2024-03-13T01:14:53.724Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T01:14:53.727Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T01:14:53.740Z [32minfo[39m     Listen at : 8010
+2024-03-13T01:14:57.542Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T01:14:57.545Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T01:14:57.557Z [32minfo[39m     Listen at : 8010
+2024-03-13T01:15:23.561Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T01:15:23.564Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T01:15:23.577Z [32minfo[39m     Listen at : 8010
+2024-03-13T01:16:22.423Z [34mverbose[39m  [Machines, getMachineGuestCertificate] 
+2024-03-13T01:16:55.518Z [34mverbose[39m  [Machines, getMachineGuestCertificate] 
+2024-03-13T01:18:10.322Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T01:18:10.325Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T01:18:10.338Z [32minfo[39m     Listen at : 8010
+2024-03-13T01:18:15.006Z [34mverbose[39m  [Machines, getMachineGuestCertificate] 
+2024-03-13T01:18:20.581Z [34mverbose[39m  [Machines, getMachineGuestCertificate] 
+2024-03-13T01:19:03.816Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T01:19:03.819Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T01:19:03.831Z [32minfo[39m     Listen at : 8010
+2024-03-13T01:19:05.100Z [34mverbose[39m  [Machines, getMachineGuestCertificate] 
+2024-03-13T01:19:58.525Z [34mverbose[39m  [Machines, getMachineCertificate] User:leonardo_heredia123@hotmail.com get Machine certificate by user Id
+2024-03-13T01:20:05.377Z [34mverbose[39m  [Machines, getMachineGuestCertificate] 
+2024-03-13T01:20:31.413Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T01:20:31.416Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T01:20:31.429Z [32minfo[39m     Listen at : 8010
+2024-03-13T01:20:33.319Z [34mverbose[39m  [Machines, getMachineGuestCertificate] 
+2024-03-13T01:20:50.415Z [34mverbose[39m  [Machines, getMachineTag] User:leonardo_heredia123@hotmail.com get Machine tag image by user Id
+2024-03-13T01:20:55.987Z [34mverbose[39m  (mongo, Connection) Init connections...
+2024-03-13T01:20:55.991Z [36mdebug[39m    Connecting to: mongodb://127.0.0.1:27017/hw-calibration 
+2024-03-13T01:20:56.003Z [32minfo[39m     Listen at : 8010
+2024-03-13T01:21:00.021Z [34mverbose[39m  [Machines, getMachineTag] User:leonardo_heredia123@hotmail.com get Machine tag image by user Id
+2024-03-13T01:21:14.367Z [34mverbose[39m  [Machines, getMachineCertificate] User:leonardo_heredia123@hotmail.com get Machine certificate by user Id
+2024-03-13T01:21:19.810Z [34mverbose[39m  [Machines, getMachineGuestCertificate] 
+2024-03-13T01:21:56.907Z [34mverbose[39m  [Machines, getMachineController] User:leonardo_heredia123@hotmail.com Get Machine by Id
+2024-03-13T01:21:56.915Z [32minfo[39m     [Machines, getMachineController] User:leonardo_heredia123@hotmail.com Success
+2024-03-13T01:22:13.109Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:22:13.118Z [34mverbose[39m  [Machines, updateMachineController] User:leonardo_heredia123@hotmail.com action: Update Machine
+2024-03-13T01:22:13.141Z [32minfo[39m     [Machines, updateMachineController] Succesfully 
+2024-03-13T01:22:16.901Z [34mverbose[39m  [Machines, getMachineController] User:leonardo_heredia123@hotmail.com Get Machine by Id
+2024-03-13T01:22:16.908Z [32minfo[39m     [Machines, getMachineController] User:leonardo_heredia123@hotmail.com Success
+2024-03-13T01:23:06.926Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:23:06.932Z [34mverbose[39m  [Machines, updateMachineController] User:leonardo_heredia123@hotmail.com action: Update Machine
+2024-03-13T01:23:06.949Z [32minfo[39m     [Machines, updateMachineController] Succesfully 
+2024-03-13T01:23:11.769Z [34mverbose[39m  [Machines, getMachineController] User:leonardo_heredia123@hotmail.com Get Machine by Id
+2024-03-13T01:23:11.773Z [32minfo[39m     [Machines, getMachineController] User:leonardo_heredia123@hotmail.com Success
+2024-03-13T01:24:38.171Z [34mverbose[39m  [Machines, getMachineCertificate] User:leonardo_heredia123@hotmail.com get Machine certificate by user Id
+2024-03-13T01:24:41.639Z [34mverbose[39m  [Machines, getMachineGuestCertificate] 
+2024-03-13T01:24:57.914Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:24:57.919Z [34mverbose[39m  [Machines, updateMachineController] User:leonardo_heredia123@hotmail.com action: Update Machine
+2024-03-13T01:24:57.935Z [32minfo[39m     [Machines, updateMachineController] Succesfully 
+2024-03-13T01:25:26.123Z [34mverbose[39m  [Machines, getMachineGuestCertificate] 
+2024-03-13T01:25:30.802Z [34mverbose[39m  [Machines, getMachineCertificate] User:leonardo_heredia123@hotmail.com get Machine certificate by user Id
+2024-03-13T01:35:10.123Z [34mverbose[39m  [Auth, login] method to login into application
+2024-03-13T01:35:10.197Z [34mverbose[39m  [Users, getAuthenticatedUserController] User:leonardo_heredia123@hotmail.com action:Get Authenticated User
+2024-03-13T01:35:10.199Z [32minfo[39m     [Users, getAuthenticatedUserController] Succesfully 
+2024-03-13T01:35:11.214Z [34mverbose[39m  [Users, getAuthenticatedUserController] User:leonardo_heredia123@hotmail.com action:Get Authenticated User
+2024-03-13T01:35:11.218Z [32minfo[39m     [Users, getAuthenticatedUserController] Succesfully 
+2024-03-13T01:35:11.222Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:35:11.222Z [34mverbose[39m  [Machine, listMachineController] User:leonardo_heredia123@hotmail.com action:Get Machine List
+2024-03-13T01:35:11.227Z [34mverbose[39m  [Users, getAuthenticatedUserController] User:leonardo_heredia123@hotmail.com action:Get Authenticated User
+2024-03-13T01:35:11.228Z [32minfo[39m     [Machine, listMachineController] Succesfully 
+2024-03-13T01:35:11.231Z [32minfo[39m     [Users, getAuthenticatedUserController] Succesfully 
+2024-03-13T01:35:11.237Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:35:11.237Z [34mverbose[39m  [Machine, listMachineController] User:leonardo_heredia123@hotmail.com action:Get Machine List
+2024-03-13T01:35:11.239Z [32minfo[39m     [Machine, listMachineController] Succesfully 
+2024-03-13T01:35:11.244Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:35:11.244Z [34mverbose[39m  [Roles, rolesList] Get Roles List
+2024-03-13T01:35:11.248Z [36mdebug[39m    Total Roles: 1 
+2024-03-13T01:35:11.249Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:35:11.250Z [34mverbose[39m  [Machine, listMachineController] User:leonardo_heredia123@hotmail.com action:Get Machine List
+2024-03-13T01:35:11.254Z [32minfo[39m     [Machine, listMachineController] Succesfully 
+2024-03-13T01:35:11.257Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:35:11.257Z [34mverbose[39m  [Roles, rolesList] Get Roles List
+2024-03-13T01:35:11.261Z [36mdebug[39m    Total Roles: 1 
+2024-03-13T01:35:11.262Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:35:11.262Z [34mverbose[39m  [Machine, listMachineController] User:leonardo_heredia123@hotmail.com action:Get Machine List
+2024-03-13T01:35:11.265Z [32minfo[39m     [Machine, listMachineController] Succesfully 
+2024-03-13T01:35:11.272Z [34mverbose[39m  [Machines, getMachineImage] User:leonardo_heredia123@hotmail.com get Machine image by user Id
+2024-03-13T01:35:11.283Z [34mverbose[39m  [Machines, getMachineImage] User:leonardo_heredia123@hotmail.com get Machine image by user Id
+2024-03-13T01:35:14.615Z [34mverbose[39m  [Machines, getMachineController] User:leonardo_heredia123@hotmail.com Get Machine by Id
+2024-03-13T01:35:14.620Z [32minfo[39m     [Machines, getMachineController] User:leonardo_heredia123@hotmail.com Success
+2024-03-13T01:35:14.625Z [34mverbose[39m  [Machines, getMachineController] User:leonardo_heredia123@hotmail.com Get Machine by Id
+2024-03-13T01:35:14.630Z [32minfo[39m     [Machines, getMachineController] User:leonardo_heredia123@hotmail.com Success
+2024-03-13T01:35:14.637Z [34mverbose[39m  [Machines, getMachineImage] User:leonardo_heredia123@hotmail.com get Machine image by user Id
+2024-03-13T01:35:14.642Z [34mverbose[39m  [Machines, getMachineTag] User:leonardo_heredia123@hotmail.com get Machine tag image by user Id
+2024-03-13T01:35:14.650Z [34mverbose[39m  [Machines, getMachineImage] User:leonardo_heredia123@hotmail.com get Machine image by user Id
+2024-03-13T01:35:14.655Z [34mverbose[39m  [Machines, getMachineTag] User:leonardo_heredia123@hotmail.com get Machine tag image by user Id
+2024-03-13T01:35:29.822Z [34mverbose[39m  [Machines, getMachineImage] User:leonardo_heredia123@hotmail.com get Machine image by user Id
+2024-03-13T01:35:29.825Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:35:29.825Z [34mverbose[39m  [Roles, rolesList] Get Roles List
+2024-03-13T01:35:29.827Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:35:29.828Z [34mverbose[39m  [Machine, listMachineController] User:leonardo_heredia123@hotmail.com action:Get Machine List
+2024-03-13T01:35:29.832Z [32minfo[39m     [Machine, listMachineController] Succesfully 
+2024-03-13T01:35:29.833Z [36mdebug[39m    Total Roles: 1 
+2024-03-13T01:35:29.840Z [34mverbose[39m  [Machines, getMachineImage] User:leonardo_heredia123@hotmail.com get Machine image by user Id
+2024-03-13T01:35:29.843Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:35:29.843Z [34mverbose[39m  [Machine, listMachineController] User:leonardo_heredia123@hotmail.com action:Get Machine List
+2024-03-13T01:35:29.845Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:35:29.845Z [34mverbose[39m  [Roles, rolesList] Get Roles List
+2024-03-13T01:35:29.846Z [32minfo[39m     [Machine, listMachineController] Succesfully 
+2024-03-13T01:35:29.848Z [36mdebug[39m    Total Roles: 1 
+2024-03-13T01:35:29.854Z [34mverbose[39m  [Machines, getMachineImage] User:leonardo_heredia123@hotmail.com get Machine image by user Id
+2024-03-13T01:35:29.860Z [34mverbose[39m  [Machines, getMachineImage] User:leonardo_heredia123@hotmail.com get Machine image by user Id
+2024-03-13T01:35:30.874Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:35:30.874Z [34mverbose[39m  [Roles, rolesList] Get Roles List
+2024-03-13T01:35:30.876Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:35:30.876Z [34mverbose[39m  [Users, listUsersController] User:leonardo_heredia123@hotmail.com action:Get User List
+2024-03-13T01:35:30.879Z [36mdebug[39m    Total Roles: 1 
+2024-03-13T01:35:30.880Z [32minfo[39m     [Users, listUsersController] Succesfully 
+2024-03-13T01:35:30.887Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:35:30.888Z [34mverbose[39m  [Roles, rolesList] Get Roles List
+2024-03-13T01:35:30.889Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:35:30.889Z [34mverbose[39m  [Users, listUsersController] User:leonardo_heredia123@hotmail.com action:Get User List
+2024-03-13T01:35:30.894Z [36mdebug[39m    Total Roles: 1 
+2024-03-13T01:35:30.895Z [32minfo[39m     [Users, listUsersController] Succesfully 
+2024-03-13T01:35:30.901Z [34mverbose[39m  [Users, getUserImage] User:leonardo_heredia123@hotmail.com get User image by user Id
+2024-03-13T01:35:30.902Z [34mverbose[39m  [Users, getUserImage] User:leonardo_heredia123@hotmail.com get User image by user Id
+2024-03-13T01:35:30.906Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:35:30.906Z [34mverbose[39m  [Users, listUsersController] User:leonardo_heredia123@hotmail.com action:Get User List
+2024-03-13T01:35:30.910Z [32minfo[39m     [Users, listUsersController] Succesfully 
+2024-03-13T01:35:30.915Z [34mverbose[39m  [Users, getUserImage] User:leonardo_heredia123@hotmail.com get User image by user Id
+2024-03-13T01:35:30.918Z [34mverbose[39m  [Users, getUserImage] User:leonardo_heredia123@hotmail.com get User image by user Id
+2024-03-13T01:35:30.920Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:35:30.920Z [34mverbose[39m  [Users, listUsersController] User:leonardo_heredia123@hotmail.com action:Get User List
+2024-03-13T01:35:30.924Z [32minfo[39m     [Users, listUsersController] Succesfully 
+2024-03-13T01:35:33.423Z [34mverbose[39m  [Machines, getMachineImage] User:leonardo_heredia123@hotmail.com get Machine image by user Id
+2024-03-13T01:35:33.424Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:35:33.425Z [34mverbose[39m  [Roles, rolesList] Get Roles List
+2024-03-13T01:35:33.427Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:35:33.427Z [34mverbose[39m  [Machine, listAllMachineController] User:leonardo_heredia123@hotmail.com action:Get All Machine List
+2024-03-13T01:35:33.429Z [32minfo[39m     [Machine, listAllMachineController] Succesfully 
+2024-03-13T01:35:33.430Z [36mdebug[39m    Total Roles: 1 
+2024-03-13T01:35:33.439Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:35:33.439Z [34mverbose[39m  [Machine, listAllMachineController] User:leonardo_heredia123@hotmail.com action:Get All Machine List
+2024-03-13T01:35:33.440Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:35:33.440Z [34mverbose[39m  [Roles, rolesList] Get Roles List
+2024-03-13T01:35:33.441Z [34mverbose[39m  [Machines, getMachineImage] User:leonardo_heredia123@hotmail.com get Machine image by user Id
+2024-03-13T01:35:33.442Z [32minfo[39m     [Machine, listAllMachineController] Succesfully 
+2024-03-13T01:35:33.444Z [36mdebug[39m    Total Roles: 1 
+2024-03-13T01:35:33.450Z [34mverbose[39m  [Machines, getMachineImage] User:leonardo_heredia123@hotmail.com get Machine image by user Id
+2024-03-13T01:35:33.456Z [34mverbose[39m  [Machines, getMachineImage] User:leonardo_heredia123@hotmail.com get Machine image by user Id
+2024-03-13T01:35:36.025Z [34mverbose[39m  [Machines, getMachineImage] User:leonardo_heredia123@hotmail.com get Machine image by user Id
+2024-03-13T01:35:36.028Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:35:36.028Z [34mverbose[39m  [Roles, rolesList] Get Roles List
+2024-03-13T01:35:36.029Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:35:36.029Z [34mverbose[39m  [Machine, listMachineController] User:leonardo_heredia123@hotmail.com action:Get Machine List
+2024-03-13T01:35:36.031Z [32minfo[39m     [Machine, listMachineController] Succesfully 
+2024-03-13T01:35:36.032Z [36mdebug[39m    Total Roles: 1 
+2024-03-13T01:35:36.042Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:35:36.042Z [34mverbose[39m  [Machine, listMachineController] User:leonardo_heredia123@hotmail.com action:Get Machine List
+2024-03-13T01:35:36.043Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:35:36.043Z [34mverbose[39m  [Roles, rolesList] Get Roles List
+2024-03-13T01:35:36.045Z [34mverbose[39m  [Machines, getMachineImage] User:leonardo_heredia123@hotmail.com get Machine image by user Id
+2024-03-13T01:35:36.046Z [32minfo[39m     [Machine, listMachineController] Succesfully 
+2024-03-13T01:35:36.048Z [36mdebug[39m    Total Roles: 1 
+2024-03-13T01:35:36.061Z [34mverbose[39m  [Machines, getMachineImage] User:leonardo_heredia123@hotmail.com get Machine image by user Id
+2024-03-13T01:35:36.070Z [34mverbose[39m  [Machines, getMachineImage] User:leonardo_heredia123@hotmail.com get Machine image by user Id
+2024-03-13T01:40:27.094Z [34mverbose[39m  [Users, getAuthenticatedUserController] User:leonardo_heredia123@hotmail.com action:Get Authenticated User
+2024-03-13T01:40:27.097Z [32minfo[39m     [Users, getAuthenticatedUserController] Succesfully 
+2024-03-13T01:40:27.099Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:40:27.099Z [34mverbose[39m  [Machine, listMachineController] User:leonardo_heredia123@hotmail.com action:Get Machine List
+2024-03-13T01:40:27.102Z [32minfo[39m     [Machine, listMachineController] Succesfully 
+2024-03-13T01:40:27.105Z [34mverbose[39m  [Users, getAuthenticatedUserController] User:leonardo_heredia123@hotmail.com action:Get Authenticated User
+2024-03-13T01:40:27.109Z [32minfo[39m     [Users, getAuthenticatedUserController] Succesfully 
+2024-03-13T01:40:27.111Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:40:27.111Z [34mverbose[39m  [Machine, listMachineController] User:leonardo_heredia123@hotmail.com action:Get Machine List
+2024-03-13T01:40:27.113Z [32minfo[39m     [Machine, listMachineController] Succesfully 
+2024-03-13T01:40:27.127Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:40:27.127Z [34mverbose[39m  [Machine, listMachineController] User:leonardo_heredia123@hotmail.com action:Get Machine List
+2024-03-13T01:40:27.129Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:40:27.129Z [34mverbose[39m  [Roles, rolesList] Get Roles List
+2024-03-13T01:40:27.130Z [32minfo[39m     [Machine, listMachineController] Succesfully 
+2024-03-13T01:40:27.131Z [36mdebug[39m    Total Roles: 1 
+2024-03-13T01:40:27.138Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:40:27.138Z [34mverbose[39m  [Machine, listMachineController] User:leonardo_heredia123@hotmail.com action:Get Machine List
+2024-03-13T01:40:27.141Z [32minfo[39m     [Machine, listMachineController] Succesfully 
+2024-03-13T01:40:27.142Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:40:27.142Z [34mverbose[39m  [Roles, rolesList] Get Roles List
+2024-03-13T01:40:27.146Z [36mdebug[39m    Total Roles: 1 
+2024-03-13T01:40:27.148Z [34mverbose[39m  [Machines, getMachineImage] User:leonardo_heredia123@hotmail.com get Machine image by user Id
+2024-03-13T01:40:27.155Z [34mverbose[39m  [Machines, getMachineImage] User:leonardo_heredia123@hotmail.com get Machine image by user Id
+2024-03-13T01:41:13.938Z [34mverbose[39m  [Users, getAuthenticatedUserController] User:leonardo_heredia123@hotmail.com action:Get Authenticated User
+2024-03-13T01:41:13.940Z [32minfo[39m     [Users, getAuthenticatedUserController] Succesfully 
+2024-03-13T01:41:13.941Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:41:13.941Z [34mverbose[39m  [Machine, listMachineController] User:leonardo_heredia123@hotmail.com action:Get Machine List
+2024-03-13T01:41:13.942Z [32minfo[39m     [Machine, listMachineController] Succesfully 
+2024-03-13T01:41:13.946Z [34mverbose[39m  [Users, getAuthenticatedUserController] User:leonardo_heredia123@hotmail.com action:Get Authenticated User
+2024-03-13T01:41:13.949Z [32minfo[39m     [Users, getAuthenticatedUserController] Succesfully 
+2024-03-13T01:41:13.950Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:41:13.950Z [34mverbose[39m  [Machine, listMachineController] User:leonardo_heredia123@hotmail.com action:Get Machine List
+2024-03-13T01:41:13.951Z [32minfo[39m     [Machine, listMachineController] Succesfully 
+2024-03-13T01:41:13.972Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:41:13.972Z [34mverbose[39m  [Machine, listMachineController] User:leonardo_heredia123@hotmail.com action:Get Machine List
+2024-03-13T01:41:13.973Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:41:13.973Z [34mverbose[39m  [Roles, rolesList] Get Roles List
+2024-03-13T01:41:13.974Z [32minfo[39m     [Machine, listMachineController] Succesfully 
+2024-03-13T01:41:13.976Z [36mdebug[39m    Total Roles: 1 
+2024-03-13T01:41:13.982Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:41:13.983Z [34mverbose[39m  [Machine, listMachineController] User:leonardo_heredia123@hotmail.com action:Get Machine List
+2024-03-13T01:41:13.985Z [32minfo[39m     [Machine, listMachineController] Succesfully 
+2024-03-13T01:41:13.986Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:41:13.987Z [34mverbose[39m  [Roles, rolesList] Get Roles List
+2024-03-13T01:41:13.991Z [36mdebug[39m    Total Roles: 1 
+2024-03-13T01:41:13.996Z [34mverbose[39m  [Machines, getMachineImage] User:leonardo_heredia123@hotmail.com get Machine image by user Id
+2024-03-13T01:41:14.006Z [34mverbose[39m  [Machines, getMachineImage] User:leonardo_heredia123@hotmail.com get Machine image by user Id
+2024-03-13T01:42:23.418Z [34mverbose[39m  [Users, getAuthenticatedUserController] User:leonardo_heredia123@hotmail.com action:Get Authenticated User
+2024-03-13T01:42:23.421Z [32minfo[39m     [Users, getAuthenticatedUserController] Succesfully 
+2024-03-13T01:42:23.423Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:42:23.423Z [34mverbose[39m  [Machine, listMachineController] User:leonardo_heredia123@hotmail.com action:Get Machine List
+2024-03-13T01:42:23.426Z [32minfo[39m     [Machine, listMachineController] Succesfully 
+2024-03-13T01:42:23.428Z [34mverbose[39m  [Users, getAuthenticatedUserController] User:leonardo_heredia123@hotmail.com action:Get Authenticated User
+2024-03-13T01:42:23.431Z [32minfo[39m     [Users, getAuthenticatedUserController] Succesfully 
+2024-03-13T01:42:23.433Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:42:23.433Z [34mverbose[39m  [Machine, listMachineController] User:leonardo_heredia123@hotmail.com action:Get Machine List
+2024-03-13T01:42:23.434Z [32minfo[39m     [Machine, listMachineController] Succesfully 
+2024-03-13T01:42:23.450Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:42:23.450Z [34mverbose[39m  [Machine, listMachineController] User:leonardo_heredia123@hotmail.com action:Get Machine List
+2024-03-13T01:42:23.451Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:42:23.451Z [34mverbose[39m  [Roles, rolesList] Get Roles List
+2024-03-13T01:42:23.452Z [32minfo[39m     [Machine, listMachineController] Succesfully 
+2024-03-13T01:42:23.454Z [36mdebug[39m    Total Roles: 1 
+2024-03-13T01:42:23.459Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:42:23.459Z [34mverbose[39m  [Machine, listMachineController] User:leonardo_heredia123@hotmail.com action:Get Machine List
+2024-03-13T01:42:23.461Z [32minfo[39m     [Machine, listMachineController] Succesfully 
+2024-03-13T01:42:23.462Z [32minfo[39m     (Permission) Authorized User:  leonardo_heredia123@hotmail.com
+2024-03-13T01:42:23.463Z [34mverbose[39m  [Roles, rolesList] Get Roles List
+2024-03-13T01:42:23.466Z [36mdebug[39m    Total Roles: 1 
+2024-03-13T01:42:23.468Z [34mverbose[39m  [Machines, getMachineImage] User:leonardo_heredia123@hotmail.com get Machine image by user Id
+2024-03-13T01:42:23.476Z [34mverbose[39m  [Machines, getMachineImage] User:leonardo_heredia123@hotmail.com get Machine image by user Id

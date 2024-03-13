@@ -9,6 +9,8 @@ import getAll from "./get.machines.list.complete"
 import getMachine from "./get.machineById"
 import getMachineGuestImg from "./get.machineguest.image"
 import getMachineGuestTag from "./get.machineguest.tag"
+import getMachineCertificate from "./get.machine.certificado"
+import getMachineGuestCertificate from "./get.machineguest.certificate"
 
 export const createMachineController = create
 export const getMachineController = get
@@ -17,7 +19,9 @@ export const updateMachineController = update
 export const deleteMachineController = delite
 export const getMachineImageController = getMachineImage
 export const getMachineTagController = getMachineTag
+export const getMachineCertificateController = getMachineCertificate
 export const getAllMachineController = getAll
 export const getMachineByIdController = getMachine
 export const getMachineGuestImgController = getMachineGuestImg
 export const getMachineGuestTagController = getMachineGuestTag
+export const getMachineGuestCertificateController = getMachineGuestCertificate

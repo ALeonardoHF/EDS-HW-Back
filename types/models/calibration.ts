@@ -17,7 +17,7 @@ export interface Calibration {
     comments:string
     foto_equipo?: Types.ObjectId
     foto_etiqueta_calibracion?: Types.ObjectId
-    liga_certificado:string
+    certificado?: Types.ObjectId
     status: boolean
 }
 
